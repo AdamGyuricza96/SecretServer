@@ -1,9 +1,5 @@
 <?php
-function postURL($fileDestination){
-    this.$fileDestination = $fileDestination;
-    echo "Your link is: $fileDestination \n";
 
-}
 
 if(isset($_POST['submit'])){
     exec('deletefile.php');
